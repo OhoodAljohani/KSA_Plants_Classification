@@ -118,3 +118,10 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 - The CNN model accuracy is : 0.6723 
+### Limitation : 
+- The Dataset Collecting resulted in a bad set of images .
+- The Dataset Size caused issues in the classification .
+- Domain of Knowledge : I had littile experince in the topice which delayed the process
+### Future Work 
+#### n the future, I would search for a specialist supervisor and would make sure that all of the data was collected in the best way. I would strongly consider the Use of ensemble learning and  transfer learning.
+
