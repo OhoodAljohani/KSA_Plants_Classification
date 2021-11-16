@@ -62,7 +62,7 @@ KSA_Plants_Classification
 ![Triangle Frame Pattern Tumblr Banner](https://user-images.githubusercontent.com/59482214/141875921-19455910-b0c0-4bb0-8881-f2034021c231.png)
 
 #### The dataset contains 4,343 images - after data agumatution 7021 images. It has two columns, the first column *Label* is the name of the plant family, and the second !
-*img* is the path to the image. 
+*img* is nummpy array of the image. 
 - Image sizes range from 1*1 to 2816*1880 pixle. 
 - The labels are distributed as follows: 
 ![imagesperfamily](https://user-images.githubusercontent.com/59482214/141881777-9dd5304f-9efa-4f1d-bfa2-768a2cf16331.png)
