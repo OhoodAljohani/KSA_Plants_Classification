@@ -58,7 +58,7 @@ KSA_Plants_Classification
 |–– templates
 |  |–– main.html
 ``` 
-# 1.Collocting The dataset :
+# 1. Collocting The dataset :
 ![Triangle Frame Pattern Tumblr Banner](https://user-images.githubusercontent.com/59482214/141875921-19455910-b0c0-4bb0-8881-f2034021c231.png)
 
 #### The dataset contains 4,343 images - after data agumatution 7021 images. It has two columns, the first column *Label* is the name of the plant family, and the second !
@@ -68,3 +68,52 @@ KSA_Plants_Classification
 ![imagesperfamily](https://user-images.githubusercontent.com/59482214/141881777-9dd5304f-9efa-4f1d-bfa2-768a2cf16331.png)
 - Example of one images is : From the BARBEYACEAE Family 
 ![BARBEYACEAE Family](https://user-images.githubusercontent.com/59482214/141881961-ede286d2-4c04-4ae4-8381-8b036b77fb1d.png)
+# 2. CNN model :
+- The CNN model structure is as following : 
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 32, 32, 32)        896       
+                                                                 
+ activation (Activation)     (None, 32, 32, 32)        0         
+                                                                 
+ conv2d_1 (Conv2D)           (None, 30, 30, 32)        9248      
+                                                                 
+ conv2d_2 (Conv2D)           (None, 28, 28, 64)        18496     
+                                                                 
+ activation_1 (Activation)   (None, 28, 28, 64)        0         
+                                                                 
+ max_pooling2d (MaxPooling2D  (None, 14, 14, 64)       0         
+ )                                                               
+                                                                 
+ conv2d_3 (Conv2D)           (None, 14, 14, 64)        36928     
+                                                                 
+ activation_2 (Activation)   (None, 14, 14, 64)        0         
+                                                                 
+ conv2d_4 (Conv2D)           (None, 12, 12, 64)        36928     
+                                                                 
+ conv2d_5 (Conv2D)           (None, 10, 10, 64)        36928     
+                                                                 
+ conv2d_6 (Conv2D)           (None, 8, 8, 64)          36928     
+                                                                 
+ activation_3 (Activation)   (None, 8, 8, 64)          0         
+                                                                 
+ max_pooling2d_1 (MaxPooling  (None, 4, 4, 64)         0         
+ 2D)                                                             
+                                                                 
+ flatten (Flatten)           (None, 1024)              0         
+                                                                 
+ dense (Dense)               (None, 32)                32800     
+                                                                 
+ activation_4 (Activation)   (None, 32)                0         
+                                                                 
+ dense_1 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 209,185
+Trainable params: 209,185
+Non-trainable params: 0
+_________________________________________________________________
+
+- The CNN model accuracy is : 0.6723 
