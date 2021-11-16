@@ -6,6 +6,7 @@
 -  Use the dataset to build  binary classification CNN model based on the two most frequent families. 
 -  Deploy the model as a web app.
 #### Before I go into detail about the goals, I'd want to give you an overview of the project's structure:
+``` bash
 capStoneProject
 |–– main
 |–– scrape.ipynb
@@ -48,3 +49,5 @@ capStoneProject
 |  |–– css
 |–– templates
 |  |–– main.html
+``` bash
+
