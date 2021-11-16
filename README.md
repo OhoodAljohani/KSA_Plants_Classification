@@ -7,7 +7,7 @@
 -  Deploy the model as a web app.
 #### Before I go into detail about the goals, I'd want to give you an overview of the project's structure:
 ``` bash
-capStoneProject
+KSA_Plants_Classification
 |–– main
 |–– scrape.ipynb
 |–– EDA.ipynb
@@ -49,5 +49,5 @@ capStoneProject
 |  |–– css
 |–– templates
 |  |–– main.html
-``` bash
+``` 
 
