@@ -117,11 +117,13 @@ Trainable params: 209,185
 Non-trainable params: 0
 _________________________________________________________________
 ```
-- The CNN model accuracy is : 0.6723 
+- The CNN model accuracy is : 0.6723 , The model was unstable and the accuracy is low, I believe the model didn't generalize. 
 ### Limitation : 
-- The Dataset Collecting resulted in a bad set of images .
-- The Dataset Size caused issues in the classification .
-- Domain of Knowledge : I had littile experince in the topice which delayed the process
+- The Dataset Gathering produced a poor group of photos.
+- Classification difficulties were caused by the Dataset Size.
+- Domain of Knowledge: I had limited experience with the subject, which caused the process to be delayed.
 ### Future Work 
 #### n the future, I would search for a specialist supervisor and would make sure that all of the data was collected in the best way. I would strongly consider the Use of ensemble learning and  transfer learning.
 
+### Conclusion:
+#### The data from the KSA flora photos was obtained and utilized to perform binary classification of the two most well-known species. For a variety of factors, the model fell short. There were several hurdles throughout the development process, particularly in the data collation and model training stages. The accuracy of the model is 67 percent, indicating that it did not generalize effectively.
