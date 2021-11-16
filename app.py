@@ -14,11 +14,11 @@ app = Flask(__name__)
 
 dic = {0 : 'CARYOPHYLLACEAE', 1 : 'BORAGINACEAE'}
 
-model = load_model('flora.h5')
+model = load_model('./model/flora.h5')
 
 model.make_predict_function()
 
-def classify(img_path):
+def pred(img_path):
     img = image.load_img(img_path, target_size=(32, 32))
     img_array = image.img_to_array(img)
 
@@ -49,7 +49,7 @@ def get_output():
 		img_path = "static/" + img.filename	
 		img.save(img_path)
 
-		p = classify(img_path)
+		p = pred(img_path)
 		p = p.astype(int)
 
 	return render_template("main.html", prediction = dic.get(np.asscalar(p)), img_path = img_path)
