@@ -65,6 +65,6 @@ KSA_Plants_Classification
 *img* is the path to the image. 
 - Image sizes range from 1*1 to 2816*1880 pixle. 
 - The labels are distributed as follows: 
-[imagesperfamily](https://user-images.githubusercontent.com/59482214/141881777-9dd5304f-9efa-4f1d-bfa2-768a2cf16331.png)
+![imagesperfamily](https://user-images.githubusercontent.com/59482214/141881777-9dd5304f-9efa-4f1d-bfa2-768a2cf16331.png)
 - Example of one images is : From the BARBEYACEAE Family 
-[BARBEYACEAE Family](https://user-images.githubusercontent.com/59482214/141881961-ede286d2-4c04-4ae4-8381-8b036b77fb1d.png)
+![BARBEYACEAE Family](https://user-images.githubusercontent.com/59482214/141881961-ede286d2-4c04-4ae4-8381-8b036b77fb1d.png)
