@@ -70,6 +70,7 @@ KSA_Plants_Classification
 ![BARBEYACEAE Family](https://user-images.githubusercontent.com/59482214/141881961-ede286d2-4c04-4ae4-8381-8b036b77fb1d.png)
 # 2. CNN model :
 - The CNN model structure is as following : 
+```
 Model: "sequential"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
@@ -115,5 +116,5 @@ Total params: 209,185
 Trainable params: 209,185
 Non-trainable params: 0
 _________________________________________________________________
-
+```
 - The CNN model accuracy is : 0.6723 
